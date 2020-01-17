@@ -22,7 +22,7 @@ def my_hash_creator(key, value)
   # return a hash that includes the key and value parameters passed into this method'
   my_hash = Hash.new
   my_hash[key] = value
-  puts my_hash
+  puts my_hash[key]
 end
 
 def read_from_hash(hash, key)
@@ -35,4 +35,4 @@ def update_counting_hash(hash, key)
   # if the provided key is present, increment its value by 1
 end
 
-my_hash_creator(:name,"Juan")
+my_hash_creator(:name,"Juan")[
