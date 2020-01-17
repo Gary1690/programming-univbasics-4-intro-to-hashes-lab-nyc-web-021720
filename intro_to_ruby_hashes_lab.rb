@@ -15,7 +15,7 @@ end
 
 def id_generator
   # return a hash with a key :id assigned to positive integer
-  {:id => ((rand()*1000).floor}
+  {:id => ((rand()*1000).floor)}
 end
 
 def my_hash_creator(key, value)
